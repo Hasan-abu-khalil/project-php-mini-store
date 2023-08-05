@@ -1,0 +1,33 @@
+
+
+
+
+
+
+    <!-- <div class="container">
+        <?php
+        session_start();
+        // echo "<pre>";
+        // print_r($_SESSION);
+        // echo "</pre>";
+        
+        if (isset($_SESSION["added_items"]) && !empty($_SESSION["added_items"])) {
+            foreach ($_SESSION["added_items"] as $show => $item) {
+                echo "<div class='home-container'>
+                
+                <img class ='home-img' src=" . $item["image_url"] . " >
+                <h1 class='home-name'>" . $item["item_name"] . "</h1>
+                <p class='home-details'>" . $item["details"] . "</p>
+                <p class='home-price'>" . $item["price"] . "</p>
+                <a class='home-btn' href='show_item.php?id=" . $show . "'>Show Details</a>
+                
+                </div>
+                ";
+
+            }
+        } else {
+            echo "<p> >No items added yet.</p>";
+        }
+        ?>
+
+    </div> -->

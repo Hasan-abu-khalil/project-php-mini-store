@@ -1,0 +1,36 @@
+
+table{
+    width: 90%;
+    margin:50px auto;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+th{
+    font-size: 20px;
+    border: 1px solid #ffffff1d;
+    padding: 15px ;
+}
+
+
+td{
+    font-size: 18px;
+    border: 1px solid #ffffff1d;
+    gap: 50px;
+    
+}
+
+td img{
+    width: 100px;
+    height: 100px;
+}
+
+td a {
+
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgb(2, 219, 248);
+    border-radius: 15px;
+}
