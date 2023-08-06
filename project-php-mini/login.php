@@ -97,6 +97,31 @@
         <input class="btn" type="submit" value="Login">
     </form>
     </div>
+
+
+    <footer class="footer">
+        <img src="img/logo.png" alt="" >
+        
+
+        <div class="footer-left-side">
+            <a href="home-page.php">Home</a>
+            <a href="show_item.php?id=0">single product</a>
+            <a href="login.php">Add product</a>
+        </div>
+        <div class="footer-right-side">
+            <h1>contact me</h1>
+            <div>
+                <h3><span><i class="fa-solid fa-envelope"></i></span>hasan.aak1998@gmail.com</h3>
+                <h3><span><i class="fa-solid fa-mobile"></i></span>0798832182</h3>
+                <div class='footer-right-side-icon'>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+
+        </div>
+    </footer>
     
 </body>
 
@@ -123,8 +148,8 @@ if (isset($_GET['name']) && isset($_GET['email']) && isset($_GET['password'])) {
 
     if ($submitted_name === $name && $submitted_email === $email && $submitted_password === $password) {
 
-        $_SESSION['is_logged_in'] = true;
-        $_SESSION['name'] = $submitted_name;
+        // $_SESSION['is_logged_in'] = true;
+        // $_SESSION['name'] = $submitted_name;
 
         header('Location: add_products.php');
         exit;
